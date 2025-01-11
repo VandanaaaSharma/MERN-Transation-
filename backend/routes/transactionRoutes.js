@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const {
-    initializeDatabase,
-    getTransactions
+  initializeDatabase,
+  getTransactions
 } = require('../controllers/transactionController');
 
 // API to initialize database
